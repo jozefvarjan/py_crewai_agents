@@ -1,5 +1,15 @@
+from dotenv import load_dotenv
+import os
+
+from crewai import Agent, Task, Crew
+
+
+
 def main():
-    print("Hello from py-crewai-agents!")
+
+    load_dotenv()
+
+    planner = Agent()
 
 
 if __name__ == "__main__":
