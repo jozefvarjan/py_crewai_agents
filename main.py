@@ -114,6 +114,7 @@ def main():
     crew = Crew(
         agents=[planner, writer, editor],
         tasks=[plan, write, edit],
+        tracing=True,
         verbose=True
     )
 
