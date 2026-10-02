@@ -3,9 +3,12 @@ name = "py-crewai-agents"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12, <3.14"
 dependencies = [
-    "crewai>=1.15.23",
+    "crewai[anthropic]>=1.15.23",
     "crewai-tools>=1.15.23",
     "langchain-community>=0.4.2",
+    "poethepoet>=0.48.0",
 ]
+
+[tool.poe.tasks]

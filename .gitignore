@@ -1,2 +1,4 @@
 __pycache__
 .env
+./build
+./py_crewai_agents.egg-info
